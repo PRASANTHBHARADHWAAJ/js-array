@@ -13,6 +13,14 @@ const mapArray= arr.map(item =>
 console.log(mapArray)
 //returns [1, 4, 9, 16, 25]
 
+//WE CAN CHAIN 
+const mapArray= arr.map(item =>
+{
+	return item=item * item;
+}).filter(item =>item ==4)
+console.log(mapArray)
+//returnS [4] 
+
 //filter
 const found=arr1.filter(item =>
 {
@@ -56,7 +64,21 @@ console.log(splice1)
 console.log(arr)
 //[1,5] will permanently remove the elts from the array.
 
+const red1 = arr.reduce((item,index) =>
+{
+return item=item+index;
+},1000)
+console.log(red1)
+//will return 1006 since we have [1,5] in arr and 1000 is an accumulator value.
 
+
+const as=arr.filter((num) =>
+{
+  return 4>2;
+}
+)
+console.log(as);
+//[1,5] in flter, we have to return a value to have the result.
 
 
 
