@@ -46,12 +46,16 @@ console.log(found);
 
 
 //slice
-const slice1 = arr.slice(1,4)
+const slice1 = arr.slice(1)
 console.log(slice1)
 //[2,3,4]
 
 //splice
-const splice1 = arr.splice()
+const splice1 = arr.splice(1,3)
+console.log(splice1)
+console.log(arr)
+//[1,5] will permanently remove the elts from the array.
+
 
 
 
