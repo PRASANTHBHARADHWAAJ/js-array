@@ -84,10 +84,10 @@ console.log(as);
 //FIND
 const found=arr1.find(item =>
 {
-return JSON.stringify(item.name) === 'sds';
+return item.name1 === 'sds';
 })
 console.log(found);
-
+//{name1: "sds", age1: 56}
 
  
 
