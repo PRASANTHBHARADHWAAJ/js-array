@@ -81,9 +81,12 @@ console.log(as);
 //[1,5] in flter, we have to return a value to have the result.
 
 
-
-
-
+//FIND
+const found=arr1.find(item =>
+{
+return JSON.stringify(item.name) === 'sds';
+})
+console.log(found);
 
 
  
